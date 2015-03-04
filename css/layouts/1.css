@@ -45,12 +45,12 @@ p {
  */
 
 .banner {
-    background: transparent url('back_1280.jpg') 0 0 no-repeat fixed;
+    background: transparent url('back_100.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='back_1280.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='back_100.jpg', sizingMethod='scale');
 
-    height: 200px;
+    height: 100px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
@@ -218,7 +218,7 @@ p {
  */
 @media (min-width: 480px) {
     .banner {
-        height: 400px;
+        height: 100px;
     }
     .banner-head {
         font-size: 3em;
