@@ -66,9 +66,9 @@
 
 <div class="banner">
     <h1 class="banner-head">
-        FIC2Lab<br>
+        <img src="css/layouts/fic2lab_logo3.png"  class="i2" onclick="changeImage(this)" />
+        <br>
         "The best thing since sliced bread."
-        <br /><br /><img src="css/layouts/fic2lab_logo1.png" />
     </h1>
 </div>
 
@@ -209,8 +209,21 @@
     </p>
 </div>
 
-
-
+<script language="javascript">
+    function changeImage(elem) {
+// console.log(elem.src)
+        if (elem.classname == "i1") 
+        {
+            elem.classname = "i2";
+            elem.src = "css/layouts/fic2lab_logo3.png";
+        }
+        else 
+        {
+            elem.classname = "i1";
+            elem.src = "css/layouts/fic2lab_logo1.png";
+        }
+    }
+</script>
 
 </body>
 </html>
