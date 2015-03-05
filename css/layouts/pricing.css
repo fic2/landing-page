@@ -104,6 +104,10 @@ p {
     background: #2c4985;
 }
 
+.pricing-table-biz2 .pricing-table-header {
+    background: #49112c;
+}
+
 /*
  * -- PRICING TABLE HEADER --
  * By default, a header is black/white, and has some styles for its <h2> name.
@@ -115,7 +119,7 @@ p {
     .pricing-table-header h2 {
         margin: 0;
         padding-top: 2em;
-        font-size: 1em;
+        font-size: 1.5em;
         font-weight: normal;
 
     }
